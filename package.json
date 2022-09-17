@@ -1,0 +1,31 @@
+{
+	"name": "fs22-snippets",
+	"displayName": "FS22 Snippets",
+	"description": "Farming Simulator 22 Snippets",
+	"version": "0.0.1",
+	"publisher": "fsgmodding",
+	"icon": "icons/icon128.png",
+	"bugs": "https://github.com/FSGModding/FS22_vsCode_Snippets/issues",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "xml",
+				"path": "./xml_snippets.json"
+			},
+			{
+				"language": "lua",
+				"path": "./lua_snippets.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/FSGModding/FS22_vsCode_Snippets/"
+	}
+}
